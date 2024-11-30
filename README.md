@@ -7,9 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/itzbandhan" target="blank"><img src="https://img.shields.io/twitter/follow/itzbandhan?logo=twitter&style=for-the-badge" alt="itzbandhan" /></a> </p>
 
-- 🔭 I’m currently working on [Ecommerce](github.com/itzbandhan?tab=repositories)
-
-- 🌱 I’m currently learning **reactjs, mern stack development**
+- 🌱 I’m currently learning **reactjs, nextjs, mern stack**
 
 - 👨‍💻 All of my projects are available at [https://github.com/itzbandhan?tab=repositories](https://github.com/itzbandhan?tab=repositories)
 
