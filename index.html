@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bandhan Pokhrel</title>
+  <style>
+    /* Animation Styles */
+    #animation-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #0b0f14;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    
+    #particle-canvas {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    
+    /* Main Content Styles (hidden during animation) */
+    #main-content {
+      display: none;
+    }
+    
+    /* Your existing styles */
+    :root {
+      --bg: #0b0f14;
+      --card: #111825;
+      --muted: #9aa4b2;
+      --text: #e6edf3;
+      --brand: #5ac8fa;
+      --ring: rgba(90, 200, 250, 0.45);
+      --shadow: 0 10px 30px rgba(0,0,0,.35), 0 2px 6px rgba(0,0,0,.25);
+      --radius: 18px;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: radial-gradient(1200px 600px at 10% -10%, #122035 0, transparent 40%),
+                  radial-gradient(1000px 600px at 110% 0%, #1a2235 0, transparent 45%),
+                  var(--bg);
+      color: var(--text);
+    }
+
+    .container {
+      max-width: 1200px;
+      padding: 48px 20px 72px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: clamp(1.6rem, 2.4vw, 2.2rem);
+      font-weight: 800;
+      letter-spacing: 0.2px;
+      margin: 0 0 22px;
+      line-height: 1.2;
+    }
+
+    .subtle {
+      color: var(--muted);
+      font-size: 0.98rem;
+      margin-bottom: 28px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    @media (min-width: 540px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 840px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+    @media (min-width: 1140px){ .grid { grid-template-columns: repeat(4, 1fr); } }
+
+    .card {
+      display: block;
+      background: linear-gradient(180deg, #121a29, #0f141d);
+      border: 1px solid #1d2736;
+      border-radius: var(--radius);
+      overflow: hidden;
+      position: relative;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: var(--shadow);
+      transition: transform .15s ease, box-shadow .2s ease, border-color .2s ease;
+      will-change: transform;
+    }
+
+    .card:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--ring); }
+    .card:hover { transform: translateY(-4px); border-color: #2a3a52; }
+
+    .thumb {
+      width: 100%;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      display: block;
+      background: #0d1320;
+    }
+
+    .content {
+      padding: 14px 14px 16px;
+      display: grid;
+      grid-template-columns: 44px 1fr auto;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .favicon {
+      width: 44px; height: 44px; border-radius: 10px; background: #0a0f18; border: 1px solid #1b2534; display: grid; place-items: center;
+    }
+    .favicon img { width: 22px; height: 22px; }
+
+    .title {
+      font-weight: 700; letter-spacing: .2px; font-size: 1rem; line-height: 1.2;
+    }
+    .url { color: var(--muted); font-size: .85rem; }
+
+    .visit { color: var(--brand); font-weight: 700; font-size: .92rem; }
+
+    footer { margin-top: 36px; color: var(--muted); font-size: .9rem; }
+
+    /* optional: reduce motion */
+    @media (prefers-reduced-motion: reduce) {
+      .card { transition: none; }
+      .card:hover { transform: none; }
+    }
+    
+    /* Introduction section */
+    .intro {
+      margin-bottom: 40px;
+      max-width: 800px;
+    }
+    
+    .intro h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: var(--brand);
+    }
+    
+    .intro p {
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Animation Container -->
+  <div id="animation-container">
+    <canvas id="particle-canvas"></canvas>
+  </div>
+  
+  <!-- Main Content -->
+  <div id="main-content">
+    <main class="container">
+      <!-- Introduction Section -->
+      <section class="intro">
+        <h2>Bandhan Pokhrel</h2>
+        <!-- <p>Hello! I'm Bandhan Pokhrel, a passionate developer and creative thinker. This website serves as a hub for my various projects and online presence.</p> -->
+        <!-- <p>With expertise in web development and a keen interest in creating interactive experiences, I'm constantly exploring new technologies and pushing the boundaries of what's possible on the web.</p> -->
+        <h2>WEBPAGE UNDER DEVELOPMENT!!! YOU CAN CHECK THE BELOW LINKS TO SURF THROUGH SOME PAGES: </h2>
+      </section>
+      
+      <h1>Visit more from bandhanpokhrel.com.np</h1>
+      <p class="subtle">Quick links to apps and projects across subdomains. Thumbnails are live screenshots provided via a public thumbnail service with a favicon fallback.</p>
+
+      <section class="grid" id="grid">
+        <!-- Cards injected by JS below to keep it DRY -->
+      </section>
+
+      <footer>
+        Tip: You can contact me from <a href="mailto:codewithbandhan@gmail.com" target="_blank">Email</a> or <a href="https://cal.com/bandhanpokhrel/" target="_blank">Schedule a call</a>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    // Animation Script
+    document.addEventListener('DOMContentLoaded', function() {
+      const animationContainer = document.getElementById('animation-container');
+      const mainContent = document.getElementById('main-content');
+      const canvas = document.getElementById('particle-canvas');
+      const ctx = canvas.getContext('2d');
+      
+      // Set canvas size
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      
+      // Particles array
+      let particles = [];
+      const particleCount = 300; // Increased for better S formation
+      
+      // Create particles coming from 4 directions
+      for (let i = 0; i < particleCount; i++) {
+        // Determine which side the particle comes from (0: top, 1: right, 2: bottom, 3: left)
+        const side = Math.floor(Math.random() * 4);
+        let x, y;
+        
+        switch(side) {
+          case 0: // top
+            x = Math.random() * canvas.width;
+            y = -10;
+            break;
+          case 1: // right
+            x = canvas.width + 10;
+            y = Math.random() * canvas.height;
+            break;
+          case 2: // bottom
+            x = Math.random() * canvas.width;
+            y = canvas.height + 10;
+            break;
+          case 3: // left
+            x = -10;
+            y = Math.random() * canvas.height;
+            break;
+        }
+        
+        particles.push({
+          x: x,
+          y: y,
+          size: Math.random() * 3 + 2, // Slightly larger particles
+          speedX: 0,
+          speedY: 0,
+          color: `hsla(${Math.random() * 60 + 180}, 100%, 70%, ${Math.random() * 0.5 + 0.5})`, // Brighter, more visible
+          targetX: canvas.width / 2,
+          targetY: canvas.height / 2,
+          arrived: false,
+          glow: Math.random() * 5 + 5 // Glow effect
+        });
+      }
+      
+      // Animation state
+      let animationStage = 0; // 0: particles moving to center, 1: forming S, 2: holding shape, 3: dispersing
+      let holdTimer = 0;
+      const holdDuration = 30; // Frames to hold the S shape
+      
+      // Animate function
+      function animate() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        // Create glowing background effect
+        ctx.fillStyle = 'rgba(11, 15, 20, 0.2)';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        
+        let allArrived = true;
+        
+        // Update and draw particles
+        particles.forEach(particle => {
+          if (!particle.arrived) {
+            const dx = particle.targetX - particle.x;
+            const dy = particle.targetY - particle.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+            
+            if (distance < 5) {
+              particle.arrived = true;
+            } else {
+              // Move toward target with slight randomness
+              particle.x += dx * 0.03 + (Math.random() - 0.5) * 2;
+              particle.y += dy * 0.03 + (Math.random() - 0.5) * 2;
+              allArrived = false;
+            }
+          }
+          
+          // Draw particle with glow effect
+          ctx.shadowBlur = particle.glow;
+          ctx.shadowColor = particle.color;
+          ctx.fillStyle = particle.color;
+          ctx.beginPath();
+          ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
+          ctx.fill();
+          ctx.shadowBlur = 0;
+        });
+        
+        // When all particles arrive at center, form S shape
+        if (allArrived && animationStage === 0) {
+          animationStage = 1;
+          const sPoints = calculateSPoints();
+          
+          // Assign each particle to a point on the S curve
+          particles.forEach((particle, i) => {
+            const pointIndex = Math.floor(i / (particles.length / sPoints.length)) % sPoints.length;
+            particle.targetX = sPoints[pointIndex].x;
+            particle.targetY = sPoints[pointIndex].y;
+            particle.arrived = false;
+          });
+        }
+        
+        // When S is formed, hold for a moment then disperse
+        if (animationStage === 1 && particles.every(p => p.arrived)) {
+          animationStage = 2;
+        }
+        
+        // Hold the S shape for a moment
+        if (animationStage === 2) {
+          holdTimer++;
+          if (holdTimer > holdDuration) {
+            animationStage = 3;
+            // Send particles off screen
+            particles.forEach(particle => {
+              // Random direction off screen
+              const angle = Math.random() * Math.PI * 2;
+              particle.targetX = canvas.width / 2 + Math.cos(angle) * (canvas.width * 0.8);
+              particle.targetY = canvas.height / 2 + Math.sin(angle) * (canvas.height * 0.8);
+              particle.arrived = false;
+            });
+          }
+        }
+        
+        // When particles disperse, fade out and show content
+        if (animationStage === 3 && particles.every(p => {
+          const dx = p.targetX - p.x;
+          const dy = p.targetY - p.y;
+          return Math.sqrt(dx * dx + dy * dy) < 5;
+        })) {
+          animationContainer.style.opacity = '0';
+          animationContainer.style.transition = 'opacity 0.5s ease-out';
+          
+          setTimeout(() => {
+            animationContainer.style.display = 'none';
+            mainContent.style.display = 'block';
+          }, 500);
+          return;
+        }
+        
+        requestAnimationFrame(animate);
+      }
+      
+      // Calculate points to form letter S
+      function calculateSPoints() {
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+        const radius = Math.min(canvas.width, canvas.height) * 0.2;
+        const points = [];
+        
+        // Top curve of S (upper half)
+        for (let angle = Math.PI; angle < Math.PI * 1.5; angle += 0.05) {
+          points.push({
+            x: centerX + Math.cos(angle) * radius * 0.8,
+            y: centerY - radius * 0.6 + Math.sin(angle) * radius * 0.8
+          });
+        }
+        
+        // Middle curve (connecting part)
+        for (let angle = Math.PI * 1.5; angle < Math.PI * 2; angle += 0.05) {
+          points.push({
+            x: centerX + Math.cos(angle) * radius * 0.6,
+            y: centerY + Math.sin(angle) * radius * 0.4
+          });
+        }
+        
+        // Bottom curve of S (lower half)
+        for (let angle = 0; angle < Math.PI * 0.5; angle += 0.05) {
+          points.push({
+            x: centerX + Math.cos(angle) * radius * 0.8,
+            y: centerY + radius * 0.6 + Math.sin(angle) * radius * 0.8
+          });
+        }
+        
+        return points;
+      }
+      
+      // Start animation
+      animate();
+      
+      // Handle window resize
+      window.addEventListener('resize', function() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      });
+    });
+    
+    // Your existing site content script
+    // List your subdomains here
+    const sites = [
+      { label: 'App',     host: 'app.bandhanpokhrel.com.np' },
+      { label: 'Game',    host: 'play.bandhanpokhrel.com.np' },
+      { label: 'Resume',  host: 'resume.bandhanpokhrel.com.np' },
+    ];
+
+    // Public screenshot service (free tier). Swap to your own or to static images for production.
+    function thumbUrl(host) {
+      // Options: width, crop, noanimate to keep it static
+      return `https://image.thum.io/get/width/1200/crop/600/noanimate/https://${host}`;
+    }
+
+    function faviconUrl(host) {
+      return `https://www.google.com/s2/favicons?sz=128&domain=${host}`;
+    }
+
+    function cardTemplate({ label, host }) {
+      const href = `https://${host}`;
+      const thumb = thumbUrl(host);
+      const fav = faviconUrl(host);
+
+      return `
+        <a class="card" href="${href}" target="_blank" rel="noopener noreferrer" aria-label="Open ${label} (${host})">
+          <img class="thumb" src="${thumb}" alt="Screenshot of ${host}" onerror="this.onerror=null; this.src='${fav}'"/>
+          <div class="content">
+            <div class="favicon"><img src="${fav}" alt="${label} favicon"/></div>
+            <div>
+              <div class="title">${label}</div>
+              <div class="url">${host}</div>
+            </div>
+            <div class="visit">Visit →</div>
+          </div>
+        </a>
+      `;
+    }
+
+    const grid = document.getElementById('grid');
+    grid.innerHTML = sites.map(cardTemplate).join('');
+  </script>
+</body>
+</html>
