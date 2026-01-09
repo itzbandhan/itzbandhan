@@ -1,10 +1,16 @@
-<!-- HERO -->
-<h1 align="center">Hey 👋, I'm <span style="color:#38BDF8;">Bandhan Pokhrel</span></h1>
-<h3 align="center">Frontend Developer • UI Enthusiast • Tech Explorer</h3>
+<!-- ANIMATED HEADER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,100:6366F1&height=220&section=header&text=Bandhan%20Pokhrel&fontSize=48&fontAlignY=38&animation=fadeIn&desc=Frontend%20Developer%20•%20UI%20Enthusiast%20•%20Tech%20Explorer&descAlignY=60" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1200&color=38BDF8&center=true&vCenter=true&width=600&lines=Hey+👋+I'm+Bandhan+Pokhrel;I+build+clean+and+modern+UIs;React+•+Next.js+•+MERN+Stack;Always+learning+something+new" />
+</p>
+
 <p align="center">📍 Kathmandu, Nepal</p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=itzbandhan&label=Profile%20Views&color=38BDF8&style=flat" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=itzbandhan&label=Profile%20Views&color=38BDF8&style=flat" />
 </p>
 
 ---
@@ -17,7 +23,7 @@
 - 💬 Ask me about **Frontend Development & UI Design**
 - 📫 Reach me at **codewithbandhan@gmail.com**
 - 🌐 Portfolio: **[itzbandhan.tech](https://itzbandhan.tech)**
-- ⚡ Fun fact: *I love exploring new coding ideas & breaking things to learn better*
+- ⚡ Fun fact: *I love breaking things just to understand how they work*
 
 ---
 
@@ -47,18 +53,18 @@
 ## 🛠️ Tech Stack
 
 ### 💻 Languages & Frameworks
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,sass,c" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind,sass,c&perline=8" />
 </p>
 
 ### 🔧 Tools & Platforms
-<p>
-  <img src="https://skillicons.dev/icons?i=git,firebase,gcp,arduino,bootstrap" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,firebase,gcp,arduino,bootstrap&perline=8" />
 </p>
 
 ### 🎨 Design
-<p>
-  <img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=figma,photoshop,illustrator&perline=8" />
 </p>
 
 ---
@@ -70,7 +76,19 @@
 </p>
 
 <p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=itzbandhan&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzbandhan&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/itzbandhan/itzbandhan/output/github-contribution-grid-snake.svg" />
 </p>
 
 ---
@@ -90,5 +108,9 @@
 ---
 
 <p align="center">
-  <b>✨ Thanks for visiting my profile! Let’s build something amazing together ✨</b>
+  <b>✨ Thanks for visiting! Let’s build something impactful together ✨</b>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,100:6366F1&height=120&section=footer" />
 </p>
