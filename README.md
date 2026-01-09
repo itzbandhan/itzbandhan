@@ -1,10 +1,13 @@
+<!-- ===================== -->
 <!-- ANIMATED HEADER -->
+<!-- ===================== -->
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38BDF8,100:6366F1&height=220&section=header&text=Bandhan%20Pokhrel&fontSize=48&fontAlignY=38&animation=fadeIn&desc=Frontend%20Developer%20•%20UI%20Enthusiast%20•%20Tech%20Explorer&descAlignY=60" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1200&color=38BDF8&center=true&vCenter=true&width=600&lines=Hey+👋+I'm+Bandhan+Pokhrel;I+build+clean+and+modern+UIs;React+•+Next.js+•+MERN+Stack;Always+learning+something+new" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=1200&color=38BDF8&center=true&vCenter=true&width=650&lines=Hey+👋+I'm+Bandhan+Pokhrel;I+build+modern+and+clean+UIs;React+•+Next.js+•+MERN+Stack;Always+learning+and+experimenting" />
 </p>
 
 <p align="center">📍 Kathmandu, Nepal</p>
@@ -69,23 +72,25 @@
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Stats (FIXED)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=itzbandhan&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=itzbandhan&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=86400" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=itzbandhan&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=itzbandhan&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzbandhan&layout=compact&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzbandhan&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" />
 </p>
 
 ---
 
-## 🐍 Contribution Snake
+## 🐍 Contribution Snake (REQUIRES ACTION)
+
+> ⚠️ This image will appear **only after you add & run the GitHub Action**
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/itzbandhan/itzbandhan/output/github-contribution-grid-snake.svg" />
