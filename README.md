@@ -15,8 +15,8 @@
 - 👨‍💻 Building real-world projects & experimenting with UI/UX
 - ✍️ Writing tech blogs at **[blogsbandhan.blogspot.com](https://blogsbandhan.blogspot.com/)**
 - 💬 Ask me about **Frontend Development & UI Design**
-- 📫 Reach me at **info@bandhanpokhrel.com.np**
-- 🌐 Portfolio: **[bandhanpokhrel.com.np](https://bandhanpokhrel.com.np)**
+- 📫 Reach me at **codewithbandhan@gmail.com**
+- 🌐 Portfolio: **[itzbandhan.tech](https://itzbandhan.tech)**
 - ⚡ Fun fact: *I love exploring new coding ideas & breaking things to learn better*
 
 ---
