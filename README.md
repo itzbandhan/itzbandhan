@@ -19,7 +19,7 @@
 
 - 🌱 Currently learning **React, Next.js & MERN Stack**
 - 👨‍💻 Building real-world projects & experimenting with UI/UX
-- ✍️ Writing tech blogs at **[blogsbandhan.blogspot.com](https://blogsbandhan.blogspot.com/)**
+- ✍️ Writing tech blogs at **[https://projectblogs.itzbandhan.tech](https://projectblogs.itzbandhan.tech/)**
 - 💬 Ask me about **Frontend Development & UI Design**
 - 📫 Reach me at **codewithbandhan@gmail.com**
 - 🌐 Portfolio: **[itzbandhan.tech](https://itzbandhan.tech)**
