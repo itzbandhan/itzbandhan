@@ -13,7 +13,7 @@
 ## 🏗️ Executive Briefing
 <table width="100%">
   <tr>
-    <td width="60%" valign="top">
+    <td width="55%" valign="top">
       <h3>🚀 Strategic Vision</h3>
       <p>I engineer <b>industrial-grade, scalable ecosystems</b>. As the CEO of <b>NIV Nepal</b>, I bridge the gap between complex hardware systems and high-fidelity web architectures, ensuring every deployment meets premium production standards.</p>
       <ul>
@@ -22,16 +22,19 @@
         <li><b>Hardware:</b> C++ for low-latency Robotics & IoT.</li>
       </ul>
     </td>
-    <td width="40%" valign="top">
-      <h3>📉 Operational Metrics</h3>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=itzbandhan&theme=tokyonight&hide_border=true&background=0D1117&stroke=38BDF8&ring=6366F1&fire=10B981" width="100%" alt="Activity Streak" />
+    <td width="45%" valign="top">
+      <h3>📈 Core Proficiencies</h3>
+      <img src="https://img.shields.io/badge/Full_Stack_Dev-95%25-38BDF8?style=flat-square" /><br/>
+      <img src="https://img.shields.io/badge/System_Architecture-90%25-6366F1?style=flat-square" /><br/>
+      <img src="https://img.shields.io/badge/IoT_Engineering-85%25-10B981?style=flat-square" /><br/>
+      <img src="https://img.shields.io/badge/UI_UX_Design-92%25-F59E0B?style=flat-square" />
     </td>
   </tr>
 </table>
 
 ---
 
-## 📂 Venture Portfolio (Production Nodes)
+## 📂 The Venture Ecosystem (Production Nodes)
 
 <table width="100%">
   <tr>
@@ -83,8 +86,7 @@
 
 ## 📊 System Diagnostics
 <p align="center">
-  <img src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api/top-langs/?username=itzbandhan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=FFFFFF" width="48%" alt="Language Distribution" />
-  <img src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api?username=itzbandhan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=6366F1&text_color=FFFFFF" width="48%" alt="System Stats" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,supabase,mongodb,nodejs,dotnet,arduino,c,cpp,docker,cloudflare,git,github,figma" />
 </p>
 
 ---
