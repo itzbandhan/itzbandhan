@@ -25,7 +25,7 @@
     <td width="45%" valign="top">
       <h3>📊 System Vitals</h3>
       <p align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=itzbandhan&show_icons=true&theme=transparent&title_color=38BDF8&icon_color=6366F1&text_color=e4e4e7&hide_border=true" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=itzbandhan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=6366F1&cache_seconds=1800" width="100%" alt="Bandhan's GitHub Stats" />
       </p>
     </td>
   </tr>
@@ -88,7 +88,7 @@
 
 ## 📈 Language Distribution
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzbandhan&layout=compact&theme=transparent&title_color=38BDF8&text_color=e4e4e7&hide_border=true" width="70%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzbandhan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&cache_seconds=1800" width="70%" alt="Top Languages" />
 </p>
 
 ---
