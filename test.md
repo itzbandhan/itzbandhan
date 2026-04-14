@@ -1,79 +1,72 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=auto&height=250&section=header&text=Bandhan%20Pokhrel&fontSize=60&animation=fadeIn&fontAlignY=40" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=200&section=header&text=BANDHAN%20POKHREL&fontSize=70&fontAlignY=45&fontColor=38BDF8&animation=twinkling" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Architecting+Digital+Experiences;CEO+%40+NIV+Nepal;Full-Stack+Engineer;Vibe+Coding+Enthusiast" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=CEO+%40+NIV+NEPAL;SYSTEMS+ARCHITECT;FULL-STACK+ENGINEER;SCALABLE+INFRASTRUCTURE" />
 </p>
 
 <p align="center">
-  <kbd>📍 Kathmandu, Nepal</kbd> 
-  &nbsp;
-  <img src="https://img.shields.io/github/followers/itzbandhan?label=Followers&style=social" />
+  <img src="https://img.shields.io/badge/LOCATION-KATHMANDU-38BDF8?style=for-the-badge&logo=googlemaps&logoColor=white" />
+  <img src="https://img.shields.io/badge/STATUS-BUILDING_SCALABLE_SYSTEMS-6366F1?style=for-the-badge" />
 </p>
 
 ---
 
-### ⚡ The Blueprint
+## ⚡ The Executive Summary
 
-I am a **Full-Stack Developer** and the **CEO of NIV Nepal**, dedicated to redefining digital interfaces in the local and global landscape. My workflow merges high-fidelity design with robust engineering, focusing on performance, scalability, and seamless user journeys.
+As the **CEO of NIV Nepal**, I bridge the gap between high-fidelity design and industrial-grade engineering. My focus is on building **highly scalable, production-ready applications** that prioritize performance, security, and seamless user experiences.
 
-- 🏗️ **Core Stack:** React 19, Next.js (App Router), TypeScript, and Tailwind CSS 4.
-- ⚙️ **Infrastructure:** Supabase, MongoDB, and Cloudflare (R2/Workers).
-- 🤖 **Innovation:** Deeply invested in **IoT & Robotics** (ESP32/STM32) and **Vibe Coding**.
-- 🛠️ **Open Source:** Maintaining tools like `itzbandhan-prompterx` and `itzbandhan-custom-log-pro`.
-- 🎓 **Academic:** Currently navigating Grade 12 (Computer Science & Accountancy).
+- 🔭 **Architecting:** Distributed systems using **Next.js 15**, **React 19**, and **Go/Node.js**.
+- 🛠️ **Infrastructure:** Designing scalable backends with **Supabase**, **MongoDB**, and **PostgreSQL**.
+- 📡 **Beyond Web:** Integrating hardware ecosystems through custom **Robotics & IoT** solutions.
+- 🚀 **Mission:** Redefining the digital standard in Nepal through precision-engineered software.
 
 ---
 
-### 🛠️ Tech Stack & Ecosystem
+## 🏗️ Technical Arsenal
 
-#### 💻 Development & Engineering
+### 🌐 Scalable Web Systems
+| Layer | Tech Stack |
+| :--- | :--- |
+| **Frontend** | React 19, Next.js (App Router), TypeScript, Tailwind CSS 4 |
+| **Backend** | Node.js, .NET Core, Supabase Edge Functions |
+| **Database** | PostgreSQL, MongoDB, Redis, Cloudflare R2 |
+| **DevOps** | Docker, Cloudflare Workers, GitHub Actions |
+
+### 🤖 Hardware & IoT Engineering
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,supabase,mongodb,dotnet,c" />
-</p>
-
-#### 🔧 Infrastructure & Hardware
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=cloudflare,firebase,gcp,git,arduino,raspberrypi,raspberrypi" />
-</p>
-
-#### 🎨 Creative Direction
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=figma,ps,ai" />
+  <img src="https://skillicons.dev/icons?i=arduino,raspberrypi,c,cpp,py" />
 </p>
 
 ---
 
-### 📊 Engineering Metrics
+## 📊 Performance Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=itzbandhan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=itzbandhan&theme=tokyonight&hide_border=true&background=0D1117" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzbandhan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" width="70%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=itzbandhan&show_icons=true&theme=transparent&title_color=38BDF8&icon_color=6366F1&text_color=e4e4e7&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzbandhan&layout=compact&theme=transparent&title_color=38BDF8&text_color=e4e4e7&hide_border=true" width="48%" />
 </p>
 
 ---
 
-### 🌐 Let's Connect
+## 💼 Venture Portfolio
 
-<p align="left">
-  <a href="https://linkedin.com/in/bandhanpokhrel"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://twitter.com/itzbandhan"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
-  <a href="mailto:codewithbandhan@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://itzbandhan.tech"><img src="https://img.shields.io/badge/Portfolio-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
-</p>
+* **[NIV Nepal](https://nivnepal.com):** Premium digital solutions for the modern enterprise.
+* **[gndX](https://gndx.tech):** Advanced hardware documentation & knowledge engine.
+* **[Skill Access Labs](https://sal.itzbandhan.tech):** Next-gen technical education ecosystem.
 
 ---
 
-### 🏆 Featured Labs
-* **NIV Nepal:** High-end digital solutions & UI/UX design.
-* **gndX:** Premium hardware documentation and resource-sharing platform.
-* **SAL (Skill Access Labs):** Redefining tech education.
+## 📬 Protocol for Connection
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer" />
+  <a href="https://linkedin.com/in/bandhanpokhrel"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:codewithbandhan@gmail.com"><img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://twitter.com/itzbandhan"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
+  <a href="https://itzbandhan.tech"><img src="https://img.shields.io/badge/PORTFOLIO-141414?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=50&section=footer&fontSize=20" />
 </p>
