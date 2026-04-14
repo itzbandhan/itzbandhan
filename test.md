@@ -3,9 +3,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/System_Status-Active-38BDF8?style=flat-square&logo=statuspage&logoColor=white" />
-  <img src="https://img.shields.io/badge/Main_Focus-Scalable_Architectures-6366F1?style=flat-square&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Infrastructure-Cloud_Native-10B981?style=flat-square&logo=cloudflare&logoColor=white" />
+  <a href="https://nivnepal.tech" target="_blank"><img src="https://img.shields.io/badge/System_Status-Active-38BDF8?style=flat-square&logo=statuspage&logoColor=white" /></a>
+  <a href="https://devx.nivnepal.tech" target="_blank"><img src="https://img.shields.io/badge/Main_Focus-Scalable_Architectures-6366F1?style=flat-square&logo=nextdotjs&logoColor=white" /></a>
+  <a href="https://gndx.bandhanpokhrel.com.np" target="_blank"><img src="https://img.shields.io/badge/Infrastructure-Cloud_Native-10B981?style=flat-square&logo=cloudflare&logoColor=white" /></a>
 </p>
 
 ---
@@ -31,7 +31,7 @@
 
 ---
 
-## 📂 The Venture Ecosystem (Production Nodes)
+## 📂 Venture Portfolio (Production Nodes)
 
 <table width="100%">
   <tr>
@@ -83,8 +83,8 @@
 
 ## 📊 System Diagnostics
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itzbandhan&layout=compact&theme=dark&hide_border=false&bg_color=0D1117&title_color=38BDF8&text_color=FFFFFF&cache_seconds=1800" width="48%" alt="Language Distribution" />
-  <img src="https://github-readme-stats.vercel.app/api?username=itzbandhan&show_icons=true&theme=dark&hide_border=false&bg_color=0D1117&title_color=38BDF8&icon_color=6366F1&text_color=FFFFFF&cache_seconds=1800" width="48%" alt="System Stats" />
+  <img src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api/top-langs/?username=itzbandhan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=FFFFFF" width="48%" alt="Language Distribution" />
+  <img src="https://github-readme-stats-git-master-anuraghazra.vercel.app/api?username=itzbandhan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=6366F1&text_color=FFFFFF" width="48%" alt="System Stats" />
 </p>
 
 ---
@@ -95,11 +95,13 @@
   <a href="mailto:info@bandhanpokhrel.com.np" target="_blank">
     <img src="https://img.shields.io/badge/Email-info@bandhanpokhrel.com.np-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
+  &nbsp;
   <a href="https://linkedin.com/in/bandhanpokhrel" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://bandhanpokhrel.com.np" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-141414?style=for-the-badge&logo=googlechrome&logoColor=white" />
+  &nbsp;
+  <a href="https://twitter.com/itzbandhan" target="_blank">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
   </a>
 </p>
 
