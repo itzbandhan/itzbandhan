@@ -39,16 +39,9 @@
 <table width="100%">
   <tr>
     <td width="50%" align="center">
-      <br><b>🏢 NIV NEPAL (HQ)</b><br>
-      <i>Enterprise Digital Solutions</i><br><br>
-      <a href="https://nivnepal.tech" target="_blank">
-        <img src="https://img.shields.io/badge/Visit_NIV-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white" />
-      </a>
-    </td>
-    <td width="50%" align="center">
       <br><b>🛠️ DEVX</b><br>
       <i>The Innovation Lab</i><br><br>
-      <a href="https://devx.nivnepal.tech" target="_blank">
+      <a href="https://devxbuilds.com" target="_blank">
         <img src="https://img.shields.io/badge/Access_DevX-6366F1?style=for-the-badge&logo=vercel&logoColor=white" />
       </a>
     </td>
